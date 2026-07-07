@@ -1,0 +1,17 @@
+{
+  "WartungsartenDialog.tsx": {
+    "bezeichnung":    "z. B. Ölwechsel, Inspektion",
+    "beschreibung":   "Beschreibung, Umfang, Besonderheiten...",
+    "intervall_tage": "z. B. 30, 60, 365"
+  },
+  "WartungsprotokolleDialog.tsx": {
+    "titel":              "z. B. Wartung Modul 3",
+    "wartungsart":        "Wartungsart wählen",
+    "datum_wartung":      "Wann wurde die Wartung durchgeführt?",
+    "naechste_wartung":   "Nächster Wartungstermin",
+    "kosten":             "z. B. 150,00",
+    "techniker":          "Name oder Kürzel",
+    "status":             "z. B. Offen, Erledigt",
+    "notizen":            "Was wurde geprüft, Auffälligkeiten, Reparaturen..."
+  }
+}

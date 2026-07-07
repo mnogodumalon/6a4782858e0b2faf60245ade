@@ -1,0 +1,3 @@
+- Wartungsarten (wartungsarten): bezeichnung[string/text], beschreibung[string/textarea], intervall_tage[number]
+- Wartungsprotokolle (wartungsprotokolle): titel[string/text], wartungsart[applookup/select], datum_wartung[date/date], naechste_wartung[date/date], kosten[number], techniker[string/text], status[lookup/radio], notizen[string/textarea]
+  → wartungsart links to app_id 6a47826ee31558df03851d7e

@@ -1,0 +1,1 @@
+Wartungsprotokolle-Dashboard: alle Protokolle als Tabelle, gruppiert nach Wartungsart, mit Kosten-Summe pro Gruppe und gesamt. Überfällige Protokolle (nächste Wartung in der Vergangenheit) sollen rot markiert sein und direkt in der Zeile einen Knopf 'Erledigt' haben. Außerdem möchte ich auf einen Blick sehen, wie sich die Wartungskosten über die Monate entwickeln.

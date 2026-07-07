@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Wartungsarten": {
+      "placeholders_set": 3,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Entity (Lookup-Katalog). Keine Datumspaar-Berechnung, keine Lookup-Chains — nichts berechenbar."
+    },
+    "Wartungsprotokolle": {
+      "placeholders_set": 8,
+      "defaults_keys": ["datum_wartung", "status"],
+      "computed_keys": [],
+      "reason": "Erfassungsformular für durchgeführte Wartungen. Einzelnes kosten-Feld ohne Multiplikator; naechste_wartung wäre theoretisch berechenbar (datum + applookup-interval), aber erfordert Date-Rückgabe statt number — nicht im computed-System unterstützt, bleibt manuell."
+    }
+  }
+}
